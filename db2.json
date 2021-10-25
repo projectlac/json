@@ -1,14 +1,2017 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "data": [
+    {
+      "id": 1,
+      "name": "Cổ điển với chuỗi",
+      "status": 1,
+      "class": "Classic With String",
+      "avatar": "strung.png",
+      "created_at": "2021-10-25T01:54:48.000000Z",
+      "updated_at": "2021-10-25T01:54:48.000000Z",
+      "sizes": [
+        {
+          "id": 1,
+          "bracelet_id": 1,
+          "name": "Nhỏ (15cm)",
+          "class": "strung_small_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 1,
+              "size_id": 1,
+              "bracelet_id": 1,
+              "name": "Trắng",
+              "bracelet_color_img": "StrungSmallWhite.png",
+              "bracelet_color_img_1": "White_S.png",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 2,
+              "size_id": 1,
+              "bracelet_id": 1,
+              "name": "Đen",
+              "bracelet_color_img": "StrungSmallBlack.png",
+              "bracelet_color_img_1": "Black_S.png",
+              "bracelet_color_avatar": "black.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 3,
+              "size_id": 1,
+              "bracelet_id": 1,
+              "name": "Be",
+              "bracelet_color_img": "StrungSmallBeige.png",
+              "bracelet_color_img_1": "Beige_S.png",
+              "bracelet_color_avatar": "beige.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 1,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 1,
+              "bracelet_lock_img": "XSmallSilver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 2,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 1,
+              "bracelet_lock_img": "XSmallGold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 3,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 1,
+              "bracelet_lock_img": "XSmallRoseGold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 4,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 1,
+              "bracelet_lock_img": "XSmallRoseGold.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "bracelet_id": 1,
+          "name": "Vừa (16cm)",
+          "class": "strung_medium_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 4,
+              "size_id": 2,
+              "bracelet_id": 1,
+              "name": "Trắng",
+              "bracelet_color_img": "StrungSmallWhite.png",
+              "bracelet_color_img_1": "White_S.png",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 5,
+              "size_id": 2,
+              "bracelet_id": 1,
+              "name": "Đen",
+              "bracelet_color_img": "StrungSmallBlack.png",
+              "bracelet_color_img_1": "Black_S.png",
+              "bracelet_color_avatar": "black.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 6,
+              "size_id": 2,
+              "bracelet_id": 1,
+              "name": "Be",
+              "bracelet_color_img": "StrungSmallBeige.png",
+              "bracelet_color_img_1": "Beige_S.png",
+              "bracelet_color_avatar": "beige.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 5,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 2,
+              "bracelet_lock_img": "XSmallSilver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 6,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 2,
+              "bracelet_lock_img": "XSmallGold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 7,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 2,
+              "bracelet_lock_img": "XSmallRoseGold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 8,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 2,
+              "bracelet_lock_img": "XSmallRoseGold.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "bracelet_id": 1,
+          "name": "To (17cm)",
+          "class": "strung_large_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 7,
+              "size_id": 3,
+              "bracelet_id": 1,
+              "name": "Trắng",
+              "bracelet_color_img": "StrungSmallWhite.png",
+              "bracelet_color_img_1": "White_S.png",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 8,
+              "size_id": 3,
+              "bracelet_id": 1,
+              "name": "Đen",
+              "bracelet_color_img": "StrungSmallBlack.png",
+              "bracelet_color_img_1": "Black_S.png",
+              "bracelet_color_avatar": "black.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 9,
+              "size_id": 3,
+              "bracelet_id": 1,
+              "name": "Be",
+              "bracelet_color_img": "StrungSmallBeige.png",
+              "bracelet_color_img_1": "Beige_S.png",
+              "bracelet_color_avatar": "beige.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 9,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 3,
+              "bracelet_lock_img": "XSmallSilver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 10,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 3,
+              "bracelet_lock_img": "XSmallGold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 11,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 3,
+              "bracelet_lock_img": "XSmallRoseGold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 12,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 3,
+              "bracelet_lock_img": "XSmallRoseGold.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "bracelet_id": 1,
+          "name": "To (nam) (18cm)",
+          "class": "strung_xlarge_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 10,
+              "size_id": 4,
+              "bracelet_id": 1,
+              "name": "Trắng",
+              "bracelet_color_img": "StrungSmallWhite.png",
+              "bracelet_color_img_1": "White_S.png",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 11,
+              "size_id": 4,
+              "bracelet_id": 1,
+              "name": "Đen",
+              "bracelet_color_img": "StrungSmallBlack.png",
+              "bracelet_color_img_1": "Black_S.png",
+              "bracelet_color_avatar": "black.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 12,
+              "size_id": 4,
+              "bracelet_id": 1,
+              "name": "Be",
+              "bracelet_color_img": "StrungSmallBeige.png",
+              "bracelet_color_img_1": "Beige_S.png",
+              "bracelet_color_avatar": "beige.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 13,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 4,
+              "bracelet_lock_img": "XSmallSilver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 14,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 4,
+              "bracelet_lock_img": "XSmallGold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 15,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 4,
+              "bracelet_lock_img": "XSmallRoseGold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 16,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 1,
+              "size_id": 4,
+              "bracelet_lock_img": "XSmallRoseGold.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cổ điển",
+      "status": 1,
+      "class": "Classic",
+      "avatar": "classic.png",
+      "created_at": "2021-10-25T01:54:48.000000Z",
+      "updated_at": "2021-10-25T01:54:48.000000Z",
+      "sizes": [
+        {
+          "id": 5,
+          "bracelet_id": 2,
+          "name": "Nhỏ (14cm)",
+          "class": "classic_xsmall8_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 13,
+              "size_id": 5,
+              "bracelet_id": 5,
+              "name": "Trắng",
+              "bracelet_color_img": "ClassicMediumWhite.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 14,
+              "size_id": 5,
+              "bracelet_id": 2,
+              "name": "Đen",
+              "bracelet_color_img": "ClassicMediumBlack.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "black.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 15,
+              "size_id": 5,
+              "bracelet_id": 2,
+              "name": "Be",
+              "bracelet_color_img": "ClassicMediumBeige.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "beige.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 17,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 5,
+              "bracelet_lock_img": "classic_silver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 18,
+              "name": "Vàng 18K",
+              "price": 50,
+              "bracelet_id": 2,
+              "size_id": 5,
+              "bracelet_lock_img": "classic_gold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 19,
+              "name": "Vàng 18K hồng",
+              "price": 75,
+              "bracelet_id": 2,
+              "size_id": 5,
+              "bracelet_lock_img": "classic_rosegold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 20,
+              "name": "Vàng 18K Ruthenium",
+              "price": 100,
+              "bracelet_id": 2,
+              "size_id": 5,
+              "bracelet_lock_img": "classic_black.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "beadSize": [
+            {
+              "id": 1,
+              "bracelet_id": 2,
+              "size_id": 5,
+              "name": "6mm",
+              "class": "classic_xsmall6_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 10
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "bracelet_id": 2,
+              "size_id": 5,
+              "name": "8mm",
+              "class": "classic_xsmall8_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 20
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "bracelet_id": 2,
+              "size_id": 5,
+              "name": "10mm",
+              "class": "classic_xsmall10_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 40
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "bracelet_id": 2,
+          "name": "Nhỏ (15cm)",
+          "class": "classic_small8_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 16,
+              "size_id": 6,
+              "bracelet_id": 6,
+              "name": "Trắng",
+              "bracelet_color_img": "ClassicMediumWhite.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 17,
+              "size_id": 6,
+              "bracelet_id": 2,
+              "name": "Đen",
+              "bracelet_color_img": "ClassicMediumBlack.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "black.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 18,
+              "size_id": 6,
+              "bracelet_id": 2,
+              "name": "Be",
+              "bracelet_color_img": "ClassicMediumBeige.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "beige.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 21,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 6,
+              "bracelet_lock_img": "classic_silver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 22,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 6,
+              "bracelet_lock_img": "classic_gold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 23,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 6,
+              "bracelet_lock_img": "classic_rosegold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 24,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 6,
+              "bracelet_lock_img": "classic_black.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "beadSize": [
+            {
+              "id": 4,
+              "bracelet_id": 2,
+              "size_id": 6,
+              "name": "6mm",
+              "class": "classic_small6_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 10
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "bracelet_id": 2,
+              "size_id": 6,
+              "name": "8mm",
+              "class": "classic_small8_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 20
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "bracelet_id": 2,
+              "size_id": 6,
+              "name": "10mm",
+              "class": "classic_small10_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 40
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "bracelet_id": 2,
+          "name": "Vừa (16cm)",
+          "class": "classic_medium8_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 19,
+              "size_id": 7,
+              "bracelet_id": 7,
+              "name": "Trắng",
+              "bracelet_color_img": "ClassicMediumWhite.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 20,
+              "size_id": 7,
+              "bracelet_id": 2,
+              "name": "Đen",
+              "bracelet_color_img": "ClassicMediumBlack.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "black.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 21,
+              "size_id": 7,
+              "bracelet_id": 2,
+              "name": "Be",
+              "bracelet_color_img": "ClassicMediumBeige.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "beige.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 25,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 7,
+              "bracelet_lock_img": "classic_silver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 26,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 7,
+              "bracelet_lock_img": "classic_gold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 27,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 7,
+              "bracelet_lock_img": "classic_rosegold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 28,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 7,
+              "bracelet_lock_img": "classic_black.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "beadSize": [
+            {
+              "id": 7,
+              "bracelet_id": 2,
+              "size_id": 7,
+              "name": "6mm",
+              "class": "classic_medium6_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 10
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "bracelet_id": 2,
+              "size_id": 7,
+              "name": "8mm",
+              "class": "classic_medium8_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 20
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "bracelet_id": 2,
+              "size_id": 7,
+              "name": "10mm",
+              "class": "classic_medium10_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 40
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "bracelet_id": 2,
+          "name": "To (17cm)",
+          "class": "classic_large8_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 22,
+              "size_id": 8,
+              "bracelet_id": 8,
+              "name": "Trắng",
+              "bracelet_color_img": "ClassicMediumWhite.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 23,
+              "size_id": 8,
+              "bracelet_id": 2,
+              "name": "Đen",
+              "bracelet_color_img": "ClassicMediumBlack.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "black.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 24,
+              "size_id": 8,
+              "bracelet_id": 2,
+              "name": "Be",
+              "bracelet_color_img": "ClassicMediumBeige.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "beige.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 29,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 8,
+              "bracelet_lock_img": "classic_silver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 30,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 8,
+              "bracelet_lock_img": "classic_gold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 31,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 8,
+              "bracelet_lock_img": "classic_rosegold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 32,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 8,
+              "bracelet_lock_img": "classic_black.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "beadSize": [
+            {
+              "id": 10,
+              "bracelet_id": 2,
+              "size_id": 8,
+              "name": "6mm",
+              "class": "classic_large6_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 10
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "bracelet_id": 2,
+              "size_id": 8,
+              "name": "8mm",
+              "class": "classic_large8_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 20
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "id": 12,
+              "bracelet_id": 2,
+              "size_id": 8,
+              "name": "10mm",
+              "class": "classic_large10_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 40
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "bracelet_id": 2,
+          "name": "To (18cm)",
+          "class": "classic_xlarge8_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 25,
+              "size_id": 9,
+              "bracelet_id": 9,
+              "name": "Trắng",
+              "bracelet_color_img": "ClassicMediumWhite.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 26,
+              "size_id": 9,
+              "bracelet_id": 2,
+              "name": "Đen",
+              "bracelet_color_img": "ClassicMediumBlack.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "black.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 27,
+              "size_id": 9,
+              "bracelet_id": 2,
+              "name": "Be",
+              "bracelet_color_img": "ClassicMediumBeige.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "beige.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 33,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 9,
+              "bracelet_lock_img": "classic_silver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 34,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 9,
+              "bracelet_lock_img": "classic_gold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 35,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 9,
+              "bracelet_lock_img": "classic_rosegold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 36,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 2,
+              "size_id": 9,
+              "bracelet_lock_img": "classic_black.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "beadSize": [
+            {
+              "id": 13,
+              "bracelet_id": 2,
+              "size_id": 9,
+              "name": "6mm",
+              "class": "classic_xlarge6_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 10
+                }
+              ]
+            },
+            {
+              "id": 14,
+              "bracelet_id": 2,
+              "size_id": 9,
+              "name": "8mm",
+              "class": "classic_xlarge8_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 20
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "id": 15,
+              "bracelet_id": 2,
+              "size_id": 9,
+              "name": "10mm",
+              "class": "classic_xlarge10_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 40
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 50
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dây đàn hồi",
+      "status": 1,
+      "class": "Elastic",
+      "avatar": "elastic(1).png",
+      "created_at": "2021-10-25T01:54:48.000000Z",
+      "updated_at": "2021-10-25T01:54:48.000000Z",
+      "sizes": [
+        {
+          "id": 10,
+          "bracelet_id": 3,
+          "name": "Nhỏ (14cm)",
+          "class": "elastic_xsmall8_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 28,
+              "size_id": 10,
+              "bracelet_id": 3,
+              "name": "Mặc định",
+              "bracelet_color_img": "elastic.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 37,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 10,
+              "bracelet_lock_img": "elastic_silver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 38,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 10,
+              "bracelet_lock_img": "elastic_gold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 39,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 10,
+              "bracelet_lock_img": "elastic_rosegold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 40,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 10,
+              "bracelet_lock_img": "elastic_black.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "beadSize": [
+            {
+              "id": 16,
+              "bracelet_id": 3,
+              "size_id": 10,
+              "name": "6mm",
+              "class": "elastic_xsmall6_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 10
+                }
+              ]
+            },
+            {
+              "id": 17,
+              "bracelet_id": 3,
+              "size_id": 10,
+              "name": "8mm",
+              "class": "elastic_xsmall8_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 20
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "id": 18,
+              "bracelet_id": 3,
+              "size_id": 10,
+              "name": "10mm",
+              "class": "elastic_xsmall10_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 40
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "bracelet_id": 3,
+          "name": "Nhỏ (15cm)",
+          "class": "elastic_small8_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 29,
+              "size_id": 11,
+              "bracelet_id": 3,
+              "name": "Mặc định",
+              "bracelet_color_img": "elastic.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 41,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 11,
+              "bracelet_lock_img": "elastic_silver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 42,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 11,
+              "bracelet_lock_img": "elastic_gold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 43,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 11,
+              "bracelet_lock_img": "elastic_rosegold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 44,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 11,
+              "bracelet_lock_img": "elastic_black.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "beadSize": [
+            {
+              "id": 19,
+              "bracelet_id": 3,
+              "size_id": 11,
+              "name": "6mm",
+              "class": "elastic_small6_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 10
+                }
+              ]
+            },
+            {
+              "id": 20,
+              "bracelet_id": 3,
+              "size_id": 11,
+              "name": "8mm",
+              "class": "elastic_small8_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 20
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "id": 21,
+              "bracelet_id": 3,
+              "size_id": 11,
+              "name": "10mm",
+              "class": "elastic_small10_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 40
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "bracelet_id": 3,
+          "name": "Vừa (16cm)",
+          "class": "elastic_medium8_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 30,
+              "size_id": 12,
+              "bracelet_id": 3,
+              "name": "Mặc định",
+              "bracelet_color_img": "elastic.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 45,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 12,
+              "bracelet_lock_img": "elastic_silver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 46,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 12,
+              "bracelet_lock_img": "elastic_gold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 47,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 12,
+              "bracelet_lock_img": "elastic_rosegold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 48,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 12,
+              "bracelet_lock_img": "elastic_black.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "beadSize": [
+            {
+              "id": 22,
+              "bracelet_id": 3,
+              "size_id": 12,
+              "name": "6mm",
+              "class": "elastic_medium6_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 10
+                }
+              ]
+            },
+            {
+              "id": 23,
+              "bracelet_id": 3,
+              "size_id": 12,
+              "name": "8mm",
+              "class": "elastic_medium8_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 20
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "id": 24,
+              "bracelet_id": 3,
+              "size_id": 11,
+              "name": "10mm",
+              "class": "elastic_medium10_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 40
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "bracelet_id": 3,
+          "name": "To (17cm)",
+          "class": "elastic_large8_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 31,
+              "size_id": 13,
+              "bracelet_id": 3,
+              "name": "Mặc định",
+              "bracelet_color_img": "elastic.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 49,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 13,
+              "bracelet_lock_img": "elastic_silver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 50,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 13,
+              "bracelet_lock_img": "elastic_gold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 51,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 13,
+              "bracelet_lock_img": "elastic_rosegold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 52,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 13,
+              "bracelet_lock_img": "elastic_black.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "beadSize": [
+            {
+              "id": 25,
+              "bracelet_id": 3,
+              "size_id": 13,
+              "name": "6mm",
+              "class": "elastic_large6_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 10
+                }
+              ]
+            },
+            {
+              "id": 26,
+              "bracelet_id": 3,
+              "size_id": 13,
+              "name": "8mm",
+              "class": "elastic_large8_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 20
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "id": 27,
+              "bracelet_id": 3,
+              "size_id": 13,
+              "name": "10mm",
+              "class": "elastic_large10_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 40
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "bracelet_id": 3,
+          "name": "To (18cm)",
+          "class": "elastic_xlarge8_women",
+          "bracelet_size_price": 0,
+          "created_at": null,
+          "updated_at": null,
+          "colors": [
+            {
+              "id": 32,
+              "size_id": 14,
+              "bracelet_id": 3,
+              "name": "Mặc định",
+              "bracelet_color_img": "elastic.png",
+              "bracelet_color_img_1": "",
+              "bracelet_color_avatar": "white.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "locks": [
+            {
+              "id": 53,
+              "name": "Bạc",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 14,
+              "bracelet_lock_img": "elastic_silver.png",
+              "bracelet_lock_avatar": "SilverLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 54,
+              "name": "Vàng 18K",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 14,
+              "bracelet_lock_img": "elastic_gold.png",
+              "bracelet_lock_avatar": "GoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 55,
+              "name": "Vàng 18K hồng",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 14,
+              "bracelet_lock_img": "elastic_rosegold.png",
+              "bracelet_lock_avatar": "RosegoldLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            },
+            {
+              "id": 56,
+              "name": "Vàng 18K Ruthenium",
+              "price": 0,
+              "bracelet_id": 3,
+              "size_id": 14,
+              "bracelet_lock_img": "elastic_black.png",
+              "bracelet_lock_avatar": "TitaniumLockSwatch.png",
+              "created_at": null,
+              "updated_at": null
+            }
+          ],
+          "beadSize": [
+            {
+              "id": 28,
+              "bracelet_id": 3,
+              "size_id": 14,
+              "name": "6mm",
+              "class": "elastic_xlarge6_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 10
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "bracelet_id": 3,
+              "size_id": 14,
+              "name": "8mm",
+              "class": "elastic_xlarge8_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 20
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "id": 30,
+              "bracelet_id": 3,
+              "size_id": 14,
+              "name": "10mm",
+              "class": "elastic_xlarge10_women",
+              "ball": [
+                {
+                  "id": 1,
+                  "name": "Thạch anh Hồng",
+                  "img": "PSBEAD01.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Tình yêu, Hạnh Phúc, Tích cực",
+                  "price": 40
+                },
+                {
+                  "id": 2,
+                  "name": "Đá mã não",
+                  "img": "PSBEAD02.png",
+                  "category_id": 1,
+                  "size_id": 1,
+                  "description": "Trí tuệ, Tự tin, Thịnh vượng",
+                  "price": 50
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
