@@ -1,0 +1,319 @@
+[
+  {
+    "id": 1,
+    "name": "Cổ điển với chuỗi",
+    "status": 1,
+    "class": "Classic With String",
+    "avatar": "strung.png",
+    "created_at": "2021-10-25T01:54:48.000000Z",
+    "updated_at": "2021-10-25T01:54:48.000000Z",
+    "sizes": [
+     
+      {
+        "id": 2,
+        "bracelet_id": 1,
+        "name": "Vừa (16cm)",
+        "class": "strung_medium_women",
+        "bracelet_size_price": 0,
+        "created_at": null,
+        "updated_at": null,
+        "colors": [
+          {
+            "id": 4,
+            "size_id": 2,
+            "bracelet_id": 1,
+            "name": "Trắng",
+            "bracelet_color_img": "StrungSmallWhite.png",
+            "bracelet_color_img_1": "White_S.png",
+            "bracelet_color_avatar": "white.png",
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "id": 5,
+            "size_id": 2,
+            "bracelet_id": 1,
+            "name": "Đen",
+            "bracelet_color_img": "StrungSmallBlack.png",
+            "bracelet_color_img_1": "Black_S.png",
+            "bracelet_color_avatar": "black.png",
+            "created_at": null,
+            "updated_at": null
+          }
+         
+        ],
+        "locks": [
+          {
+            "id": 5,
+            "name": "Bạc",
+            "price": 0,
+            "bracelet_id": 1,
+            "size_id": 2,
+            "bracelet_lock_img": "XSmallSilver.png",
+            "bracelet_lock_avatar": "SilverLockSwatch.png",
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "id": 6,
+            "name": "Vàng 18K",
+            "price": 0,
+            "bracelet_id": 1,
+            "size_id": 2,
+            "bracelet_lock_img": "XSmallGold.png",
+            "bracelet_lock_avatar": "GoldLockSwatch.png",
+            "created_at": null,
+            "updated_at": null
+          }
+         
+        ]
+      },
+      {
+        "id": 3,
+        "bracelet_id": 1,
+        "name": "To (17cm)",
+        "class": "strung_large_women",
+        "bracelet_size_price": 0,
+        "created_at": null,
+        "updated_at": null,
+        "colors": [
+          {
+            "id": 7,
+            "size_id": 3,
+            "bracelet_id": 1,
+            "name": "Trắng",
+            "bracelet_color_img": "StrungSmallWhite.png",
+            "bracelet_color_img_1": "White_S.png",
+            "bracelet_color_avatar": "white.png",
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "id": 8,
+            "size_id": 3,
+            "bracelet_id": 1,
+            "name": "Đen",
+            "bracelet_color_img": "StrungSmallBlack.png",
+            "bracelet_color_img_1": "Black_S.png",
+            "bracelet_color_avatar": "black.png",
+            "created_at": null,
+            "updated_at": null
+          }
+         
+        ],
+        "locks": [
+          {
+            "id": 9,
+            "name": "Bạc",
+            "price": 0,
+            "bracelet_id": 1,
+            "size_id": 3,
+            "bracelet_lock_img": "XSmallSilver.png",
+            "bracelet_lock_avatar": "SilverLockSwatch.png",
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "id": 10,
+            "name": "Vàng 18K",
+            "price": 0,
+            "bracelet_id": 1,
+            "size_id": 3,
+            "bracelet_lock_img": "XSmallGold.png",
+            "bracelet_lock_avatar": "GoldLockSwatch.png",
+            "created_at": null,
+            "updated_at": null
+          }
+         
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Cổ điển",
+    "status": 1,
+    "class": "Classic",
+    "avatar": "classic.png",
+    "created_at": "2021-10-25T01:54:48.000000Z",
+    "updated_at": "2021-10-25T01:54:48.000000Z",
+    "sizes": [
+    
+      {
+        "id": 6,
+        "bracelet_id": 2,
+        "name": "Nhỏ (15cm)",
+        "class": "classic_small8_women",
+        "bracelet_size_price": 0,
+        "created_at": null,
+        "updated_at": null,
+        "colors": [
+          {
+            "id": 16,
+            "size_id": 6,
+            "bracelet_id": 6,
+            "name": "Trắng",
+            "bracelet_color_img": "ClassicMediumWhite.png",
+            "bracelet_color_img_1": "",
+            "bracelet_color_avatar": "white.png",
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "id": 17,
+            "size_id": 6,
+            "bracelet_id": 2,
+            "name": "Đen",
+            "bracelet_color_img": "ClassicMediumBlack.png",
+            "bracelet_color_img_1": "",
+            "bracelet_color_avatar": "black.png",
+            "created_at": null,
+            "updated_at": null
+          }
+       
+        ],
+        "locks": [
+          {
+            "id": 21,
+            "name": "Bạc",
+            "price": 0,
+            "bracelet_id": 2,
+            "size_id": 6,
+            "bracelet_lock_img": "classic_silver.png",
+            "bracelet_lock_avatar": "SilverLockSwatch.png",
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "id": 22,
+            "name": "Vàng 18K",
+            "price": 0,
+            "bracelet_id": 2,
+            "size_id": 6,
+            "bracelet_lock_img": "classic_gold.png",
+            "bracelet_lock_avatar": "GoldLockSwatch.png",
+            "created_at": null,
+            "updated_at": null
+          }
+         
+        ]
+      },
+      {
+        "id": 7,
+        "bracelet_id": 2,
+        "name": "Vừa (16cm)",
+        "class": "classic_medium8_women",
+        "bracelet_size_price": 0,
+        "created_at": null,
+        "updated_at": null,
+        "colors": [
+          {
+            "id": 19,
+            "size_id": 7,
+            "bracelet_id": 7,
+            "name": "Trắng",
+            "bracelet_color_img": "ClassicMediumWhite.png",
+            "bracelet_color_img_1": "",
+            "bracelet_color_avatar": "white.png",
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "id": 20,
+            "size_id": 7,
+            "bracelet_id": 2,
+            "name": "Đen",
+            "bracelet_color_img": "ClassicMediumBlack.png",
+            "bracelet_color_img_1": "",
+            "bracelet_color_avatar": "black.png",
+            "created_at": null,
+            "updated_at": null
+          }
+        ],
+        "locks": [
+          {
+            "id": 25,
+            "name": "Bạc",
+            "price": 0,
+            "bracelet_id": 2,
+            "size_id": 7,
+            "bracelet_lock_img": "classic_silver.png",
+            "bracelet_lock_avatar": "SilverLockSwatch.png",
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "id": 26,
+            "name": "Vàng 18K",
+            "price": 0,
+            "bracelet_id": 2,
+            "size_id": 7,
+            "bracelet_lock_img": "classic_gold.png",
+            "bracelet_lock_avatar": "GoldLockSwatch.png",
+            "created_at": null,
+            "updated_at": null
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "bracelet_id": 2,
+        "name": "To (17cm)",
+        "class": "classic_large8_women",
+        "bracelet_size_price": 0,
+        "created_at": null,
+        "updated_at": null,
+        "colors": [
+          {
+            "id": 22,
+            "size_id": 8,
+            "bracelet_id": 8,
+            "name": "Trắng",
+            "bracelet_color_img": "ClassicMediumWhite.png",
+            "bracelet_color_img_1": "",
+            "bracelet_color_avatar": "white.png",
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "id": 23,
+            "size_id": 8,
+            "bracelet_id": 2,
+            "name": "Đen",
+            "bracelet_color_img": "ClassicMediumBlack.png",
+            "bracelet_color_img_1": "",
+            "bracelet_color_avatar": "black.png",
+            "created_at": null,
+            "updated_at": null
+          }
+        ],
+        "locks": [
+          {
+            "id": 29,
+            "name": "Bạc",
+            "price": 0,
+            "bracelet_id": 2,
+            "size_id": 8,
+            "bracelet_lock_img": "classic_silver.png",
+            "bracelet_lock_avatar": "SilverLockSwatch.png",
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "id": 30,
+            "name": "Vàng 18K",
+            "price": 0,
+            "bracelet_id": 2,
+            "size_id": 8,
+            "bracelet_lock_img": "classic_gold.png",
+            "bracelet_lock_avatar": "GoldLockSwatch.png",
+            "created_at": null,
+            "updated_at": null
+          }
+        ]
+      }
+      
+    ]
+  }
+ 
+]
