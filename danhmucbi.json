@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "HẠT THƯỜNG",
+      "show": false,
+      "data": [
+        {
+          "id": 1,
+          "img": "./assets/PSBEAD01.png",
+          "name": "THẠCH ANH HỒNG",
+          "descripton": "TÌNH YÊU, HÒA HỢP, TÍCH CỰC",
+          "price": 0
+        },
+        {
+          "id": 2,
+          "img": "./assets/PSBEAD02.png",
+          "name": "MÃ NÃO",
+          "descripton": "TRÍ TUỆ, TỰ TIN, THỊNH VƯỢNG",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "HẠT THƯỢNG HẠNG",
+      "show": false,
+      "data": [
+        {
+          "id": 3,
+          "img": "./assets/PMBEAD01.png",
+          "name": "BẠC",
+          "descripton": "GIÀU CÓ, THỊNH VƯỢNG, VỮNG CHÃI",
+          "price": 0
+        },
+        {
+          "id": 4,
+          "img": "./assets/PMBEAD02.png",
+          "name": "HOA HỒNG VÀNG",
+          "descripton": "SỨC KHỎE, ỔN ĐỊNH, TỰ TIN",
+          "price": 30
+        }
+      ]
+    }
+  ]
+}
