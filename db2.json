@@ -384,7 +384,11 @@
           "id": 5,
           "bracelet_id": 2,
           "name": "Nhỏ (14cm)",
-          "class": "classic_xsmall8_women",
+          "class": [
+            "classic_xsmall6_women",
+            "classic_xsmall8_women",
+            "classic_xsmall10_women"
+          ],
           "bracelet_size_price": 0,
           "created_at": null,
           "updated_at": null,
@@ -474,7 +478,11 @@
           "id": 6,
           "bracelet_id": 2,
           "name": "Nhỏ (15cm)",
-          "class": "classic_small8_women",
+          "class": [
+            "classic_small6_women",
+            "classic_small8_women",
+            "classic_small10_women"
+          ],
           "bracelet_size_price": 0,
           "created_at": null,
           "updated_at": null,
@@ -564,7 +572,11 @@
           "id": 7,
           "bracelet_id": 2,
           "name": "Vừa (16cm)",
-          "class": "classic_medium8_women",
+          "class": [
+            "classic_medium6_women",
+            "classic_medium8_women",
+            "classic_medium10_women"
+          ],
           "bracelet_size_price": 0,
           "created_at": null,
           "updated_at": null,
@@ -654,7 +666,11 @@
           "id": 8,
           "bracelet_id": 2,
           "name": "To (17cm)",
-          "class": "classic_large8_women",
+          "class": [
+            "classic_large6_women",
+            "classic_large8_women",
+            "classic_large10_women"
+          ],
           "bracelet_size_price": 0,
           "created_at": null,
           "updated_at": null,
@@ -744,7 +760,11 @@
           "id": 9,
           "bracelet_id": 2,
           "name": "To (18cm)",
-          "class": "classic_xlarge8_women",
+          "class": [
+            "classic_xlarge6_women",
+            "classic_xlarge8_women",
+            "classic_xlarge10_women"
+          ],
           "bracelet_size_price": 0,
           "created_at": null,
           "updated_at": null,
@@ -845,7 +865,11 @@
           "id": 10,
           "bracelet_id": 3,
           "name": "Nhỏ (14cm)",
-          "class": "elastic_xsmall8_women",
+          "class": [
+            "elastic_xsmall6_women",
+            "elastic_xsmall8_women",
+            "elastic_xsmall10_women"
+          ],
           "bracelet_size_price": 0,
           "created_at": null,
           "updated_at": null,
@@ -913,7 +937,11 @@
           "id": 11,
           "bracelet_id": 3,
           "name": "Nhỏ (15cm)",
-          "class": "elastic_small8_women",
+          "class": [
+            "elastic_small6_women",
+            "elastic_small8_women",
+            "elastic_small10_women"
+          ],
           "bracelet_size_price": 0,
           "created_at": null,
           "updated_at": null,
@@ -981,7 +1009,11 @@
           "id": 12,
           "bracelet_id": 3,
           "name": "Vừa (16cm)",
-          "class": "elastic_medium8_women",
+          "class": [
+            "elastic_medium6_women",
+            "elastic_medium8_women",
+            "elastic_medium10_women"
+          ],
           "bracelet_size_price": 0,
           "created_at": null,
           "updated_at": null,
@@ -1049,7 +1081,11 @@
           "id": 13,
           "bracelet_id": 3,
           "name": "To (17cm)",
-          "class": "elastic_large8_women",
+          "class": [
+            "elastic_large6_women",
+            "elastic_large8_women",
+            "elastic_large10_women"
+          ],
           "bracelet_size_price": 0,
           "created_at": null,
           "updated_at": null,
@@ -1117,7 +1153,11 @@
           "id": 14,
           "bracelet_id": 3,
           "name": "To (18cm)",
-          "class": "elastic_xlarge8_women",
+          "class": [
+            "elastic_xlarge6_women",
+            "elastic_xlarge8_women",
+            "elastic_xlarge10_women"
+          ],
           "bracelet_size_price": 0,
           "created_at": null,
           "updated_at": null,
@@ -1283,7 +1323,8 @@
         "elastic_small6_women",
         "elastic_medium6_women",
         "elastic_large6_women",
-        "elastic_xsmall6_women"
+
+        "elastic_xlarge6_women"
       ],
       "fakeCategory": [
         {
@@ -1349,7 +1390,7 @@
         "elastic_small8_women",
         "elastic_medium8_women",
         "elastic_large8_women",
-        "elastic_xsmall8_women"
+        "elastic_xlarge8_women"
       ],
       "fakeCategory": [
         {
@@ -1415,7 +1456,7 @@
         "elastic_small10_women",
         "elastic_medium10_women",
         "elastic_large10_women",
-        "elastic_xsmall10_women"
+        "elastic_xlarge10_women"
       ],
       "fakeCategory": [
         {
